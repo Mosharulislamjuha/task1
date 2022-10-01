@@ -1,0 +1,29 @@
+.footer_links {
+    background: url("/src/img/juha.jpg");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 5rem 0;
+    opacity: 97%;
+  }
+  .footer_links h5 {
+    text-align: center;
+  }
+  .footer_links li {
+    list-style: none;
+    cursor: pointer;
+    line-height: 35px;
+    transition: 0.2s ease-out;
+  }
+  .footer_links li:hover {
+    color: whitesmoke;
+  }
+  .copyright_container {
+    background: black;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+  }

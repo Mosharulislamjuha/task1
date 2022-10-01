@@ -1,0 +1,73 @@
+.Contact_container {
+    background:#72794f;
+    color: white;
+    padding: 0.7rem 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Contact_Media span {
+    margin: 0 0.5rem;
+  }
+  .Contact_Media a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5rem;
+    padding: 10px;
+  }
+  .navbar1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .logo h3 {
+    font-weight: 500;
+  }
+  .logo span {
+    color: #72794f;
+  }
+  .nav_items {
+    list-style: none;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center ;
+  }
+  .nav_item {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #262a2e;
+    font-size: 17px;
+  }
+  .nav_item:hover {
+    color: #72794f;
+    transition: 0.3s ease-out;
+  }
+  .navbar_icon {
+    display: inline-block;
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .navbar_icon i {
+    margin: 0 10px;
+  }
+  .shopping_cart {
+    position:relative;
+    display: flex;
+  }
+  .shopping_count {
+    position: absolute;
+    background:#72794f ;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    font-size: 15px;
+    top: -8px;
+    right: -5px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+  }
+  
